@@ -1,0 +1,11 @@
+{
+  "menuCode" : "AclSid",
+  "menuLabel" : "Acl Sid",
+  "action" : "view",
+  "ciType" : "XpmAclSid",
+  "tab" : [ {
+    "name" : "zauto_XpmAclSid_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

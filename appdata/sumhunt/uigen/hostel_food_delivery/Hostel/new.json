@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Hostel",
+  "menuLabel" : "Hostel",
+  "action" : "new",
+  "labelFormat" : "New Hostel",
+  "ciType" : "Hostel",
+  "tab" : [ {
+    "name" : "zauto_Hostel_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

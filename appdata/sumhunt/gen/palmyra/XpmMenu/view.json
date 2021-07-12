@@ -1,0 +1,46 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmMenu",
+  "label" : "Xpm Menu",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "parent"
+  }, {
+    "name" : "name",
+    "mandatory" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "action",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "displayOrder",
+    "mandatory" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "criteria"
+  }, {
+    "name" : "pageId"
+  }, {
+    "name" : "icon"
+  }, {
+    "name" : "category"
+  }, {
+    "name" : "externalUrl"
+  }, {
+    "name" : "ciType"
+  }, {
+    "name" : "ciId"
+  } ]
+}

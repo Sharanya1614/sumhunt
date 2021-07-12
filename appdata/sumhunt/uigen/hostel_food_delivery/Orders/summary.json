@@ -1,0 +1,13 @@
+{
+  "menuCode" : "Orders",
+  "menuLabel" : "Orders",
+  "parentMenu" : "order",
+  "action" : "summary",
+  "labelFormat" : "Orders",
+  "ciType" : "Orders",
+  "tab" : [ {
+    "name" : "zauto_Orders_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

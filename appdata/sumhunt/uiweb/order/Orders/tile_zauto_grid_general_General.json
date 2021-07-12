@@ -1,0 +1,52 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "studId",
+    "label" : "Stud Id",
+    "attribute" : "studId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "Student",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "mealId",
+    "label" : "Meal Id",
+    "attribute" : "mealId.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "MstMealType",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "orderDate",
+    "label" : "Order Date",
+    "attribute" : "orderDate",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  } ]
+}

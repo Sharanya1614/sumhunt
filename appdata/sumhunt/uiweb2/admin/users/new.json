@@ -1,0 +1,44 @@
+{
+	"name" : "user",
+	"ciType" : "XpmUser",
+	"active" : true,
+	"label" : "${firstName} - ${loginName}",
+	"tab" : [
+		{	
+			"name" : "zauto_XpmUser_exp_General",
+			"label" : "General",
+			"pageName" : "User",
+			"displayOrder" : 1,
+			"active" : true,
+			"position" : "center",
+			"tabularType" : "explorer",
+			"tile" : ["zauto_XpmUser_Users",
+				"zauto_XpmUser_status",
+				"zauto_XpmUser_contact"
+			]
+		},
+		{
+			"name" : "zauto_XpmUser_exp_Groups",
+			"label" : "Groups",
+			"pageName" : "User",
+			"displayOrder" : 2,
+			"active" : true,			
+			"position" : "center",			
+			"tabularType" : "explorer",
+			"tile" : [ "zauto_zit_users_Groups" ]
+		},
+		{
+			"name" : "zauto_XpmUser_exp_Facility",
+			"label" : "Facilities",
+			"pageName" : "User",
+			"displayOrder" : 3,
+			"active" : true,			
+			"position" : "center",
+			"content" : "grid",
+			"tabularType" : "explorer",
+			"tile" : [
+				"zauto_zit_users_Facility"
+			]
+		}
+	]
+}

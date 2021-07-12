@@ -1,0 +1,78 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "keyName",
+    "label" : "Key Name",
+    "attribute" : "keyName",
+    "maxLength" : 200,
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "cifield",
+    "label" : "Cifield",
+    "attribute" : "cifield.id",
+    "refAttribute" : "attribute",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCifield",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "fkeyField",
+    "label" : "Fkey Field",
+    "attribute" : "fkeyField.id",
+    "refAttribute" : "attribute",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCifield",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "schemaName",
+    "label" : "Schema Name",
+    "attribute" : "schemaName",
+    "maxLength" : 50,
+    "displayOrder" : 10,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "menuCode" : "UserSession",
+  "menuLabel" : "User Session",
+  "action" : "summary",
+  "labelFormat" : "User Session",
+  "ciType" : "XpmUserSession",
+  "tab" : [ {
+    "name" : "zauto_XpmUserSession_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

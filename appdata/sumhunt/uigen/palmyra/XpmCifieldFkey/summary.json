@@ -1,0 +1,12 @@
+{
+  "menuCode" : "CifieldFkey",
+  "menuLabel" : "Cifield Fkey",
+  "action" : "summary",
+  "labelFormat" : "Cifield Fkey",
+  "ciType" : "XpmCifieldFkey",
+  "tab" : [ {
+    "name" : "zauto_XpmCifieldFkey_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmPage",
+  "label" : "Xpm Page",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "pageName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "reference",
+    "mandatory" : true
+  }, {
+    "name" : "citId"
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "renderer"
+  } ]
+}

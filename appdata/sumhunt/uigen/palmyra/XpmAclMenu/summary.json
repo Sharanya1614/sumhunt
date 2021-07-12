@@ -1,0 +1,12 @@
+{
+  "menuCode" : "AclMenu",
+  "menuLabel" : "Acl Menu",
+  "action" : "summary",
+  "labelFormat" : "Acl Menu",
+  "ciType" : "XpmAclMenu",
+  "tab" : [ {
+    "name" : "zauto_XpmAclMenu_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

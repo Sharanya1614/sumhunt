@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Menu",
+  "menuLabel" : "Menu",
+  "action" : "view",
+  "labelFormat" : "${code}",
+  "ciType" : "XpmMenu",
+  "tab" : [ {
+    "name" : "zauto_XpmMenu_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

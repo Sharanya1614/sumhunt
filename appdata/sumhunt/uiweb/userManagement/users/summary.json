@@ -1,0 +1,22 @@
+{
+	"menuCode" : "user",
+	"menuLabel":"Users",
+	"ciType" : "XpmUser",
+	"viewRndr" : "UserPage",
+	"active" : true,	
+	"order" : 20,
+	"tab" : [
+		{
+			"name" : "zauto_XpmUser_sum_General",
+			"label" : "General",
+			"pageName" : "User",
+			"displayOrder" : 999,
+			"active" : true,
+			"position" : "center",
+			"tabularType" : "summary",
+			"tile" : [
+				"zauto_XpmUser_summary"
+			]
+		}
+	]
+}

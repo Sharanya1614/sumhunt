@@ -1,0 +1,33 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmUserSession",
+  "label" : "Xpm User Session",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "user",
+    "mandatory" : true
+  }, {
+    "name" : "status",
+    "mandatory" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "failureAttempts",
+    "mandatory" : true
+  }, {
+    "name" : "ipAddress",
+    "mandatory" : true
+  }, {
+    "name" : "hostName",
+    "mandatory" : true
+  }, {
+    "name" : "cookie",
+    "mandatory" : true
+  } ]
+}

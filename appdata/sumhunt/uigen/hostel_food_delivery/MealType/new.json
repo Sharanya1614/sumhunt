@@ -1,0 +1,11 @@
+{
+  "menuCode" : "MealType",
+  "menuLabel" : "Meal Type",
+  "action" : "new",
+  "ciType" : "MstMealType",
+  "tab" : [ {
+    "name" : "zauto_MstMealType_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

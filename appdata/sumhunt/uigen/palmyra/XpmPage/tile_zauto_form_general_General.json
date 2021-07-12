@@ -1,0 +1,48 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "pageName",
+    "label" : "Page Name",
+    "attribute" : "pageName",
+    "maxLength" : 255,
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "reference",
+    "label" : "Reference",
+    "attribute" : "reference",
+    "maxLength" : 1024,
+    "displayOrder" : 3
+  }, {
+    "name" : "citId",
+    "label" : "Cit Id",
+    "attribute" : "citId.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 4
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "renderer",
+    "label" : "Renderer",
+    "attribute" : "renderer.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "XpmRenderer",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 10
+  } ]
+}

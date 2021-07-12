@@ -1,0 +1,23 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmAclSid",
+  "label" : "Xpm Acl Sid",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "sid",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "description",
+    "mandatory" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  } ]
+}

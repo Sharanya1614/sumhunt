@@ -1,0 +1,13 @@
+{
+  "menuCode" : "MealType",
+  "menuLabel" : "Meal Type",
+  "parentMenu" : "hostelDetail",
+  "action" : "summary",
+  "labelFormat" : "Meal Type",
+  "ciType" : "MstMealType",
+  "tab" : [ {
+    "name" : "zauto_MstMealType_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

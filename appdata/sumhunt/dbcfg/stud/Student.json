@@ -1,0 +1,10 @@
+ {
+	"type" : "Student",
+	"children" : {
+		"stud" : {
+			"type" : "Quarantine",
+			"source" : ["id"],
+			"target": ["studId"]
+		}
+	}
+}

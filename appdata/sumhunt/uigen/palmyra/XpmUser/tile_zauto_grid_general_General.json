@@ -1,0 +1,213 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "loginName",
+    "label" : "Login Name",
+    "attribute" : "loginName",
+    "maxLength" : 64,
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "random",
+    "label" : "Random",
+    "attribute" : "random",
+    "maxLength" : 128,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "password",
+    "label" : "Password",
+    "attribute" : "password",
+    "maxLength" : 128,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "nextPasswordChange",
+    "label" : "Next Password Change",
+    "attribute" : "nextPasswordChange",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "lastPasswordChange",
+    "label" : "Last Password Change",
+    "attribute" : "lastPasswordChange",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 6,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 7,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "locked",
+    "label" : "Locked",
+    "attribute" : "locked",
+    "maxLength" : 5,
+    "displayOrder" : 8,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "externalUser",
+    "label" : "External User",
+    "attribute" : "externalUser",
+    "maxLength" : 5,
+    "displayOrder" : 9,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "lastLogin",
+    "label" : "Last Login",
+    "attribute" : "lastLogin",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 10,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 64,
+    "displayOrder" : 11,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "firstName",
+    "label" : "First Name",
+    "attribute" : "firstName",
+    "maxLength" : 64,
+    "displayOrder" : 12,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "lastName",
+    "label" : "Last Name",
+    "attribute" : "lastName",
+    "maxLength" : 64,
+    "displayOrder" : 13,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "mobileNumber",
+    "label" : "Mobile Number",
+    "attribute" : "mobileNumber",
+    "maxLength" : 15,
+    "displayOrder" : 14,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "officeNumber",
+    "label" : "Office Number",
+    "attribute" : "officeNumber",
+    "maxLength" : 15,
+    "displayOrder" : 15,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "email",
+    "label" : "Email",
+    "attribute" : "email",
+    "maxLength" : 64,
+    "displayOrder" : 16,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "department",
+    "label" : "Department",
+    "attribute" : "department",
+    "maxLength" : 20,
+    "displayOrder" : 17,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "icon",
+    "label" : "Icon",
+    "attribute" : "icon",
+    "maxLength" : 200,
+    "displayOrder" : 18,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "homePage",
+    "label" : "Home Page",
+    "attribute" : "homePage",
+    "maxLength" : 200,
+    "displayOrder" : 19,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  } ]
+}

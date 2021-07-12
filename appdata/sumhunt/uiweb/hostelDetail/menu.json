@@ -1,0 +1,5 @@
+{
+	"menuLabel" : "Hostel Detail",
+	"menuCode" : "hostelDetail",
+	"parentMenu": "root"
+}

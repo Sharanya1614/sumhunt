@@ -1,0 +1,15 @@
+{
+  "menuCode" : "group",
+"menuLabel":"Groups",
+  "ciType" : "XpmAclSid",
+  "active" : true,
+  "tab" : [ {
+    "name" : "zauto_XpmAclSid_sum_General",
+    "label" : "General",
+    "displayOrder" : 0,
+    "active" : true,
+    "position" : "center",
+    "tabularType" : "explorer",
+    "tile" : ["form_group_general" ]    
+  } ]
+}

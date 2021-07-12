@@ -1,0 +1,13 @@
+{
+  "menuCode" : "Quarantine",
+  "menuLabel" : "Quarantine",
+  "parentMenu" : "order",
+  "action" : "summary",
+  "labelFormat" : "Quarantine",
+  "ciType" : "Quarantine",
+  "tab" : [ {
+    "name" : "zauto_Quarantine_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

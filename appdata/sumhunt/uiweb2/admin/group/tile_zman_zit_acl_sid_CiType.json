@@ -1,0 +1,20 @@
+{
+				"name" : "zman_zit_acl_sid_CiType",
+				"label" : "CiType",
+				"permission" : {
+					"read" : true,
+					"deny" : false,
+					"update" : true,
+					"delete" : true,
+					"create" : true
+				},
+				"displayOrder" : 0,
+				"colspan" : 2,
+				"relation" : "related-cis",
+				"mask" : 15,
+				"renderer" : "ddm/zui/widget/AclGrid",
+				"openMode" : 0,
+				"active" : true,
+				"content" : "grid",
+				"position" : "center"
+			}

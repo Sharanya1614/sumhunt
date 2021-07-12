@@ -1,0 +1,48 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "countryName",
+    "label" : "Country Name",
+    "attribute" : "countryName",
+    "maxLength" : 64,
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "isoCode2",
+    "label" : "Iso Code 2",
+    "attribute" : "isoCode2",
+    "maxLength" : 2,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "isoCode3",
+    "label" : "Iso Code 3",
+    "attribute" : "isoCode3",
+    "maxLength" : 3,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  } ]
+}

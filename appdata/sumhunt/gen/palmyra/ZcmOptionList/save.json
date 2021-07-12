@@ -1,0 +1,28 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmOptionList",
+  "label" : "Zcm Option List",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "option",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true
+  }, {
+    "name" : "displayOrder",
+    "mandatory" : true
+  } ]
+}

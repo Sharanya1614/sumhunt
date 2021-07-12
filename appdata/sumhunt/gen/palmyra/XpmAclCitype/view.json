@@ -1,0 +1,31 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmAclCitype",
+  "label" : "Xpm Acl Citype",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "aclSid",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "ciType",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "mask",
+    "mandatory" : true
+  }, {
+    "name" : "granting"
+  }, {
+    "name" : "auditSuccess"
+  }, {
+    "name" : "auditFailure"
+  } ]
+}

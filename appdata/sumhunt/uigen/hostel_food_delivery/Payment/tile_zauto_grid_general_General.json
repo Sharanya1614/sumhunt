@@ -1,0 +1,52 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "studId",
+    "label" : "Stud Id",
+    "attribute" : "studId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "Student",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "numberOfMeal",
+    "label" : "Number Of Meal",
+    "attribute" : "numberOfMeal",
+    "maxLength" : 10,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "totalPayment",
+    "label" : "Total Payment",
+    "attribute" : "totalPayment",
+    "maxLength" : 10,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9.]*$",
+    "editable" : "readonly"
+  } ]
+}

@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+}
+
+def versions = [jetty : '10.0.2']
+
+//def versions = [jetty : '9.4.40.v20210413']
+
+
+group = 'com.univ.hostel.api'
+
+repositories {
+	mavenLocal()
+	mavenCentral()	
+}
+
+sourceCompatibility = '11'
+
+dependencies {		
+	implementation group: 'com.biocliq.fluwiz', name: 'fluwiz-server', version:'0.2'
+}
+
+
+jar {
+    exclude('com/zitlab/palmyra/jetty/**')
+    exclude('*.xml')
+    exclude('*.properties')
+}

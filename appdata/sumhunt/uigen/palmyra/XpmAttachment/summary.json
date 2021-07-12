@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Attachment",
+  "menuLabel" : "Attachment",
+  "action" : "summary",
+  "labelFormat" : "Attachment",
+  "ciType" : "XpmAttachment",
+  "tab" : [ {
+    "name" : "zauto_XpmAttachment_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

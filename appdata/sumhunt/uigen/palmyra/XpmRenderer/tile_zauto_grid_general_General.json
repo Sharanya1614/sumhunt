@@ -1,0 +1,60 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 50,
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "reference",
+    "label" : "Reference",
+    "attribute" : "reference",
+    "maxLength" : 300,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "processor",
+    "label" : "Processor",
+    "attribute" : "processor",
+    "maxLength" : 300,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  } ]
+}

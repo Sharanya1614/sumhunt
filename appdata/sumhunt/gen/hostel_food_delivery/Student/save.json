@@ -1,0 +1,27 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "Student",
+  "label" : "Student",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "studCode",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name"
+  }, {
+    "name" : "institutionName"
+  }, {
+    "name" : "yearofstudy"
+  }, {
+    "name" : "hostId"
+  }, {
+    "name" : "roomNumber"
+  } ]
+}

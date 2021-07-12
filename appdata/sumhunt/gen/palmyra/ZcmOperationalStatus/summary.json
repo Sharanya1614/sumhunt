@@ -1,0 +1,20 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmOperationalStatus",
+  "label" : "Zcm Operational Status",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "description",
+    "mandatory" : true
+  } ]
+}

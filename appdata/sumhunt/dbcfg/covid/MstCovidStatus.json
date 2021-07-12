@@ -1,0 +1,10 @@
+ {
+	"type" : "MstCovidStatus",
+	"children" : {
+		"covid" : {
+			"type" : "Quarantine",
+			"source" : ["id"],
+			"target": ["covidStatus"]
+		}
+	}
+}

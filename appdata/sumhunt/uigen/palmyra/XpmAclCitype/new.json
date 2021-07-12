@@ -1,0 +1,11 @@
+{
+  "menuCode" : "AclCitype",
+  "menuLabel" : "Acl Citype",
+  "action" : "new",
+  "ciType" : "XpmAclCitype",
+  "tab" : [ {
+    "name" : "zauto_XpmAclCitype_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "countryName",
+    "label" : "Country Name",
+    "attribute" : "countryName",
+    "maxLength" : 64,
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "isoCode2",
+    "label" : "Iso Code 2",
+    "attribute" : "isoCode2",
+    "maxLength" : 2,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "isoCode3",
+    "label" : "Iso Code 3",
+    "attribute" : "isoCode3",
+    "maxLength" : 3,
+    "displayOrder" : 4
+  } ]
+}

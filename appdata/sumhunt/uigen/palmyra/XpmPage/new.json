@@ -1,0 +1,11 @@
+{
+  "menuCode" : "Page",
+  "menuLabel" : "Page",
+  "action" : "new",
+  "ciType" : "XpmPage",
+  "tab" : [ {
+    "name" : "zauto_XpmPage_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

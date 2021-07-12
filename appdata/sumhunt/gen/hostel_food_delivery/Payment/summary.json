@@ -1,0 +1,18 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "Payment",
+  "label" : "Payment",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "studId"
+  }, {
+    "name" : "numberOfMeal"
+  }, {
+    "name" : "totalPayment"
+  } ]
+}

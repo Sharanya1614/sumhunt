@@ -1,0 +1,33 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmSessionHistory",
+  "label" : "Xpm Session History",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "user",
+    "mandatory" : true
+  }, {
+    "name" : "status",
+    "mandatory" : true
+  }, {
+    "name" : "failureAttempts",
+    "mandatory" : true
+  }, {
+    "name" : "ipAddress",
+    "mandatory" : true
+  }, {
+    "name" : "hostName",
+    "mandatory" : true
+  }, {
+    "name" : "cookie",
+    "mandatory" : true
+  }, {
+    "name" : "firstAccess",
+    "mandatory" : true
+  }, {
+    "name" : "login"
+  }, {
+    "name" : "logout"
+  } ]
+}

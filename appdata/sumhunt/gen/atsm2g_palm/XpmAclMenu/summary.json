@@ -1,0 +1,27 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmAclMenu",
+  "label" : "Xpm Acl Menu",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "aclSid",
+    "mandatory" : true
+  }, {
+    "name" : "menu",
+    "mandatory" : true
+  }, {
+    "name" : "mask",
+    "mandatory" : true
+  }, {
+    "name" : "granting"
+  }, {
+    "name" : "auditSuccess"
+  }, {
+    "name" : "auditFailure"
+  } ]
+}

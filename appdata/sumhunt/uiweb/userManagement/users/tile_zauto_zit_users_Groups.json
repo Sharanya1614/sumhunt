@@ -1,0 +1,19 @@
+{
+					"name" : "zauto_zit_users_Groups",
+					"label" : "Groups",
+					"displayOrder" : 1,
+					"colspan" : 2,
+					"relation" : "children",
+					"mask" : 0,
+					"openMode" : 0,
+					"active" : true,
+					"permission" : {
+						"create": true
+					},
+					"renderer" : "ddm/zui/grid/acl/AclGroupsByUser",
+					"content" : "Grid",					
+					"position" : "center",
+					"renderOptions" : "{\"pagination\":\"normal\"}",
+					"field" : [
+					]
+				}

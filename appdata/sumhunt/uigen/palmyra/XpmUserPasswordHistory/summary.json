@@ -1,0 +1,12 @@
+{
+  "menuCode" : "UserPasswordHistory",
+  "menuLabel" : "User Password History",
+  "action" : "summary",
+  "labelFormat" : "User Password History",
+  "ciType" : "XpmUserPasswordHistory",
+  "tab" : [ {
+    "name" : "zauto_XpmUserPasswordHistory_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

@@ -1,0 +1,117 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "org",
+    "label" : "Org",
+    "attribute" : "org.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmOrganization",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "code",
+    "label" : "Code",
+    "attribute" : "code",
+    "maxLength" : 20,
+    "displayOrder" : 3
+  }, {
+    "name" : "guid",
+    "label" : "Guid",
+    "attribute" : "guid",
+    "maxLength" : 32,
+    "displayOrder" : 4
+  }, {
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 32,
+    "displayOrder" : 5
+  }, {
+    "mandatory" : true,
+    "name" : "facilityType",
+    "label" : "Facility Type",
+    "attribute" : "facilityType.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmFacilityType",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 6
+  }, {
+    "mandatory" : true,
+    "name" : "region",
+    "label" : "Region",
+    "attribute" : "region",
+    "maxLength" : 10,
+    "displayOrder" : 7
+  }, {
+    "mandatory" : true,
+    "name" : "status",
+    "label" : "Status",
+    "attribute" : "status.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmOperationalStatus",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 8
+  }, {
+    "name" : "addressContact",
+    "label" : "Address Contact",
+    "attribute" : "addressContact",
+    "maxLength" : 200,
+    "displayOrder" : 9
+  }, {
+    "name" : "addressLine1",
+    "label" : "Address Line 1",
+    "attribute" : "addressLine1",
+    "maxLength" : 200,
+    "displayOrder" : 10
+  }, {
+    "name" : "addressLine2",
+    "label" : "Address Line 2",
+    "attribute" : "addressLine2",
+    "maxLength" : 200,
+    "displayOrder" : 11
+  }, {
+    "name" : "addressCity",
+    "label" : "Address City",
+    "attribute" : "addressCity",
+    "maxLength" : 50,
+    "displayOrder" : 12
+  }, {
+    "name" : "addressDistrict",
+    "label" : "Address District",
+    "attribute" : "addressDistrict",
+    "maxLength" : 50,
+    "displayOrder" : 13
+  }, {
+    "name" : "addressState",
+    "label" : "Address State",
+    "attribute" : "addressState.id",
+    "refAttribute" : "stateName",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmGeoState",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 14
+  }, {
+    "name" : "addressCountry",
+    "label" : "Address Country",
+    "attribute" : "addressCountry.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmGeoCountry",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 15
+  }, {
+    "name" : "addressPincode",
+    "label" : "Address Pincode",
+    "attribute" : "addressPincode",
+    "maxLength" : 10,
+    "displayOrder" : 16
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "menuCode" : "Payment",
+  "menuLabel" : "Payment",
+  "action" : "new",
+  "ciType" : "Payment",
+  "tab" : [ {
+    "name" : "zauto_Payment_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

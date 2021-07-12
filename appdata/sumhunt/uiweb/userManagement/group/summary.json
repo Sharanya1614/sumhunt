@@ -1,0 +1,17 @@
+{
+  "menuCode" : "group",
+	"menuLabel":"Groups",
+  "ciType" : "XpmAclSid",
+  "active" : true,
+  
+  "order": 10,
+  "tab" : [ {
+    "name" : "zauto_XpmAclSid_sum_General",
+    "label" : "User Groups",
+    "displayOrder" : 0,
+    "active" : true,
+    "position" : "center",
+    "tabularType" : "summary",
+    "tile" : ["zauto_grid_general_General"]
+  } ]
+}

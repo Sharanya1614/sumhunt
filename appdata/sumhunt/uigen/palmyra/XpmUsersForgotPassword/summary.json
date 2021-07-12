@@ -1,0 +1,12 @@
+{
+  "menuCode" : "UsersForgotPassword",
+  "menuLabel" : "Users Forgot Password",
+  "action" : "summary",
+  "labelFormat" : "Users Forgot Password",
+  "ciType" : "XpmUsersForgotPassword",
+  "tab" : [ {
+    "name" : "zauto_XpmUsersForgotPassword_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Cifield",
+  "menuLabel" : "Cifield",
+  "action" : "view",
+  "labelFormat" : "${attribute}",
+  "ciType" : "XpmCifield",
+  "tab" : [ {
+    "name" : "zauto_XpmCifield_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

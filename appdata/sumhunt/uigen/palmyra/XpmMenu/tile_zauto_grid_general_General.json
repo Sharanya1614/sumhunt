@@ -1,0 +1,163 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "parent",
+    "label" : "Parent",
+    "attribute" : "parent.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "XpmMenu",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 64,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "code",
+    "label" : "Code",
+    "attribute" : "code",
+    "maxLength" : 64,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "action",
+    "label" : "Action",
+    "attribute" : "action",
+    "maxLength" : 50,
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "displayOrder",
+    "label" : "Display Order",
+    "attribute" : "displayOrder",
+    "maxLength" : 10,
+    "displayOrder" : 6,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 7,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "criteria",
+    "label" : "Criteria",
+    "attribute" : "criteria",
+    "maxLength" : 300,
+    "displayOrder" : 8,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "pageId",
+    "label" : "Page Id",
+    "attribute" : "pageId.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "XpmPage",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 9,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "icon",
+    "label" : "Icon",
+    "attribute" : "icon",
+    "maxLength" : 50,
+    "displayOrder" : 10,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "category",
+    "label" : "Category",
+    "attribute" : "category",
+    "maxLength" : 5,
+    "displayOrder" : 11,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "externalUrl",
+    "label" : "External Url",
+    "attribute" : "externalUrl",
+    "maxLength" : 255,
+    "displayOrder" : 12,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "ciType",
+    "label" : "Ci Type",
+    "attribute" : "ciType",
+    "maxLength" : 64,
+    "displayOrder" : 17,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "ciId",
+    "label" : "Ci Id",
+    "attribute" : "ciId",
+    "maxLength" : 19,
+    "displayOrder" : 18,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  } ]
+}

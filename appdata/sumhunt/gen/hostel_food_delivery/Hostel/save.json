@@ -1,0 +1,14 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "Hostel",
+  "label" : "Hostel",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name"
+  } ]
+}

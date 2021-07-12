@@ -1,0 +1,25 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmGeoCountry",
+  "label" : "Zcm Geo Country",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "countryName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "isoCode2",
+    "mandatory" : true
+  }, {
+    "name" : "isoCode3",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  } ]
+}

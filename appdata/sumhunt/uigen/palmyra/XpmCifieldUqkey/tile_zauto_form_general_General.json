@@ -1,0 +1,43 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "keyName",
+    "label" : "Key Name",
+    "attribute" : "keyName",
+    "maxLength" : 200,
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "cifield",
+    "label" : "Cifield",
+    "attribute" : "cifield.id",
+    "refAttribute" : "attribute",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCifield",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "citype",
+    "label" : "Citype",
+    "attribute" : "citype.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 4
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  } ]
+}

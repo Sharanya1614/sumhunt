@@ -1,0 +1,92 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 19,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "aclSid",
+    "label" : "Acl Sid",
+    "attribute" : "aclSid.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "XpmAclSid",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "ciType",
+    "label" : "Ci Type",
+    "attribute" : "ciType.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "mask",
+    "label" : "Mask",
+    "attribute" : "mask",
+    "maxLength" : 10,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "granting",
+    "label" : "Granting",
+    "attribute" : "granting",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "auditSuccess",
+    "label" : "Audit Success",
+    "attribute" : "auditSuccess",
+    "maxLength" : 5,
+    "displayOrder" : 6,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "name" : "auditFailure",
+    "label" : "Audit Failure",
+    "attribute" : "auditFailure",
+    "maxLength" : 5,
+    "displayOrder" : 7,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  } ]
+}

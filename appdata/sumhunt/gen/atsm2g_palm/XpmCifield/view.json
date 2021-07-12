@@ -1,0 +1,58 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmCifield",
+  "label" : "Xpm Cifield",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "citype",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "attribute",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "columnName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "displayLabel"
+  }, {
+    "name" : "columnType"
+  }, {
+    "name" : "formula"
+  }, {
+    "name" : "aggregate"
+  }, {
+    "name" : "columnLength"
+  }, {
+    "name" : "displayOrder",
+    "mandatory" : true
+  }, {
+    "name" : "primaryKey"
+  }, {
+    "name" : "mandatory"
+  }, {
+    "name" : "isUnique",
+    "mandatory" : true
+  }, {
+    "name" : "defaultValue"
+  }, {
+    "name" : "fkeyCitype"
+  }, {
+    "name" : "fkeyCifield"
+  }, {
+    "name" : "options"
+  } ]
+}

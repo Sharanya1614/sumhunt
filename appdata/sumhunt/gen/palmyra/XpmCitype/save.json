@@ -1,0 +1,63 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmCitype",
+  "label" : "Xpm Citype",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "label"
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "tableName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "icon",
+    "mandatory" : true
+  }, {
+    "name" : "seqFormat"
+  }, {
+    "name" : "seqName"
+  }, {
+    "name" : "seqField"
+  }, {
+    "name" : "options",
+    "mandatory" : true
+  }, {
+    "name" : "aclType",
+    "mandatory" : true
+  }, {
+    "name" : "changelogType",
+    "mandatory" : true
+  }, {
+    "name" : "changelogTable"
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "selectQuery"
+  }, {
+    "name" : "criteria"
+  }, {
+    "name" : "sysTable",
+    "mandatory" : true
+  }, {
+    "name" : "schemaName",
+    "searchable" : true,
+    "sortable" : true
+  } ]
+}

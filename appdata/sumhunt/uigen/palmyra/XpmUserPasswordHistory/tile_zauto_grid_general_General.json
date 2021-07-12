@@ -1,0 +1,62 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 19,
+    "displayOrder" : 1,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "user",
+    "label" : "User",
+    "attribute" : "user.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "XpmUser",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "random",
+    "label" : "Random",
+    "attribute" : "random",
+    "maxLength" : 100,
+    "displayOrder" : 3,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "password",
+    "label" : "Password",
+    "attribute" : "password",
+    "maxLength" : 100,
+    "displayOrder" : 4,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "changedOn",
+    "label" : "Changed On",
+    "attribute" : "changedOn",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  } ]
+}

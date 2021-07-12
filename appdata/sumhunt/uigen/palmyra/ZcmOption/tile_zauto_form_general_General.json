@@ -1,0 +1,35 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "code",
+    "label" : "Code",
+    "attribute" : "code",
+    "maxLength" : 32,
+    "displayOrder" : 2
+  }, {
+    "name" : "extCode",
+    "label" : "Ext Code",
+    "attribute" : "extCode",
+    "maxLength" : 32,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "description",
+    "label" : "Description",
+    "attribute" : "description",
+    "maxLength" : 255,
+    "displayOrder" : 4
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 3,
+    "displayFormat" : "BIT",
+    "displayOrder" : 5
+  } ]
+}

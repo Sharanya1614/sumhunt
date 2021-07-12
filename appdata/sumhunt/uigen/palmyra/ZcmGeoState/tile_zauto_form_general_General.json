@@ -1,0 +1,31 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "country",
+    "label" : "Country",
+    "attribute" : "country.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmGeoCountry",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "stateCode",
+    "label" : "State Code",
+    "attribute" : "stateCode",
+    "maxLength" : 5,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "stateName",
+    "label" : "State Name",
+    "attribute" : "stateName",
+    "maxLength" : 32,
+    "displayOrder" : 4
+  } ]
+}

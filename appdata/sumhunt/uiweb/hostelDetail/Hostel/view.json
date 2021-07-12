@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Hostel",
+  "menuLabel" : "Hostel",
+  "action" : "view",
+  "labelFormat" : "${name}",
+  "ciType" : "Hostel",
+  "tab" : [ {
+    "name" : "zauto_Hostel_sum_General",
+    "label" : "Hostel",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+      "name" : "zauto_grid_general_General",
+      "label" : "User Groups",
+      "permission" : {
+        "read" : true,
+        "deny" : false,
+        "update" : true,
+        "delete" : true,
+        "create" : true
+      },
+      "displayOrder" : 0,
+      "colspan" : 2,
+      "relation" : "self",
+      "mask" : 15,
+      "openMode" : 0,
+      "active" : true,
+      "content" : "Grid",
+      "position" : "center",
+      "field" : [ 
+	  {
+        "name" : "id",
+        "label" : "id",
+        "attribute" : "id",
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : false,
+        "searchable" : false,
+        "sortable" : false,
+        "editable" : "editable",
+        "tabDisplay" : false
+      }, {
+        "name" : "sid",
+        "label" : "Sid",
+        "attribute" : "sid",
+        "displayOrder" : 1,
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : true,
+        "searchable" : false,
+        "sortable" : false,
+        "editable" : "editable",
+        "tabDisplay" : true
+      }, {
+        "name" : "description",
+        "label" : "Description",
+        "attribute" : "description",
+        "displayOrder" : 2,
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : false,
+        "searchable" : false,
+        "sortable" : false,
+        "editable" : "editable",
+        "tabDisplay" : true
+      }, {
+        "name" : "active",
+        "label" : "Active",
+        "attribute" : "active",
+        "displayOrder" : 3,
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : false,
+        "searchable" : false,
+        "sortable" : false,
+        "editable" : "editable",
+        "tabDisplay" : true,
+        "validation" : "^[0-9]*$"
+      } ]
+    } 

@@ -1,0 +1,27 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmGeoState",
+  "label" : "Zcm Geo State",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "country",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "stateCode",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "stateName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  } ]
+}

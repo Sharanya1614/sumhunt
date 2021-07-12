@@ -1,0 +1,13 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 100,
+    "displayOrder" : 2
+  } ]
+}

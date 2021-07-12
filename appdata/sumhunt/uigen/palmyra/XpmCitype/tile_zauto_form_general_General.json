@@ -1,0 +1,130 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 128,
+    "displayOrder" : 2
+  }, {
+    "name" : "label",
+    "label" : "Label",
+    "attribute" : "label",
+    "maxLength" : 128,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "code",
+    "label" : "Code",
+    "attribute" : "code",
+    "maxLength" : 128,
+    "displayOrder" : 4
+  }, {
+    "mandatory" : true,
+    "name" : "tableName",
+    "label" : "Table Name",
+    "attribute" : "tableName",
+    "maxLength" : 128,
+    "displayOrder" : 5
+  }, {
+    "mandatory" : true,
+    "name" : "icon",
+    "label" : "Icon",
+    "attribute" : "icon",
+    "maxLength" : 50,
+    "displayOrder" : 6
+  }, {
+    "name" : "seqFormat",
+    "label" : "Seq Format",
+    "attribute" : "seqFormat",
+    "maxLength" : 50,
+    "displayOrder" : 7
+  }, {
+    "name" : "seqName",
+    "label" : "Seq Name",
+    "attribute" : "seqName",
+    "maxLength" : 50,
+    "displayOrder" : 8
+  }, {
+    "name" : "seqField",
+    "label" : "Seq Field",
+    "attribute" : "seqField",
+    "maxLength" : 10,
+    "displayOrder" : 9,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "options",
+    "label" : "Options",
+    "attribute" : "options",
+    "maxLength" : 10,
+    "displayOrder" : 10,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "aclType",
+    "label" : "Acl Type",
+    "attribute" : "aclType",
+    "maxLength" : 5,
+    "displayOrder" : 11,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "changelogType",
+    "label" : "Changelog Type",
+    "attribute" : "changelogType",
+    "maxLength" : 5,
+    "displayOrder" : 12,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "changelogTable",
+    "label" : "Changelog Table",
+    "attribute" : "changelogTable",
+    "maxLength" : 128,
+    "displayOrder" : 13
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 14,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "selectQuery",
+    "label" : "Select Query",
+    "attribute" : "selectQuery",
+    "maxLength" : 2048,
+    "displayOrder" : 15
+  }, {
+    "name" : "criteria",
+    "label" : "Criteria",
+    "attribute" : "criteria",
+    "maxLength" : 2048,
+    "displayOrder" : 16
+  }, {
+    "mandatory" : true,
+    "name" : "sysTable",
+    "label" : "Sys Table",
+    "attribute" : "sysTable",
+    "maxLength" : 5,
+    "displayOrder" : 21,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "schemaName",
+    "label" : "Schema Name",
+    "attribute" : "schemaName",
+    "maxLength" : 50,
+    "displayOrder" : 22
+  } ]
+}

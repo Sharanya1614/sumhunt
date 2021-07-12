@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Citype",
+  "menuLabel" : "Citype",
+  "action" : "new",
+  "labelFormat" : "${schemaName}",
+  "ciType" : "XpmCitype",
+  "tab" : [ {
+    "name" : "zauto_XpmCitype_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

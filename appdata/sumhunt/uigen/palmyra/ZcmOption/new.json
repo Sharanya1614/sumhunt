@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Option",
+  "menuLabel" : "Option",
+  "action" : "new",
+  "labelFormat" : "${code}",
+  "ciType" : "ZcmOption",
+  "tab" : [ {
+    "name" : "zauto_ZcmOption_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmUsersForgotPassword",
+  "label" : "Xpm Users Forgot Password",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "user",
+    "mandatory" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true
+  }, {
+    "name" : "status",
+    "mandatory" : true
+  }, {
+    "name" : "ipAddress"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "menuCode" : "AclUser",
+  "menuLabel" : "Acl User",
+  "action" : "new",
+  "ciType" : "XpmAclUser",
+  "tab" : [ {
+    "name" : "zauto_XpmAclUser_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "MstCovidStatus",
+  "label" : "Mst Covid Status",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "status"
+  } ]
+}

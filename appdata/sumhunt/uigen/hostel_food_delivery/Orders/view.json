@@ -1,0 +1,11 @@
+{
+  "menuCode" : "Orders",
+  "menuLabel" : "Orders",
+  "action" : "view",
+  "ciType" : "Orders",
+  "tab" : [ {
+    "name" : "zauto_Orders_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

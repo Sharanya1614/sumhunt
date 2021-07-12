@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Organization",
+  "menuLabel" : "Organization",
+  "action" : "summary",
+  "labelFormat" : "Organization",
+  "ciType" : "ZcmOrganization",
+  "tab" : [ {
+    "name" : "zauto_ZcmOrganization_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

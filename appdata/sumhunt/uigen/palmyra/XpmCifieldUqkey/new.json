@@ -1,0 +1,12 @@
+{
+  "menuCode" : "CifieldUqkey",
+  "menuLabel" : "Cifield Uqkey",
+  "action" : "new",
+  "labelFormat" : "${keyName}",
+  "ciType" : "XpmCifieldUqkey",
+  "tab" : [ {
+    "name" : "zauto_XpmCifieldUqkey_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

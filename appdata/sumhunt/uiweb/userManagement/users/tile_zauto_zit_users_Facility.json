@@ -1,0 +1,18 @@
+{
+					"name" : "zauto_zit_users_Facility",
+					"label" : "Facilities",
+					"displayOrder" : 1,
+					"colspan" : 2,
+					"relation" : "self",
+					"mask" : 15,
+					"openMode" : 0,
+					"active" : true,
+					"permission" : {
+						"create": true
+					},
+					"renderer" : "ddm/zui/grid/facility/FacilitiesByUser",
+					"content" : "Grid",
+					"position" : "center",
+					"renderOptions" : "{\"pagination\":\"normal\"}",
+					"field" : []
+				}

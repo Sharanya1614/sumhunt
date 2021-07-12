@@ -1,0 +1,11 @@
+{
+  "menuCode" : "UserFacility",
+  "menuLabel" : "User Facility",
+  "action" : "new",
+  "ciType" : "XpmUserFacility",
+  "tab" : [ {
+    "name" : "zauto_XpmUserFacility_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

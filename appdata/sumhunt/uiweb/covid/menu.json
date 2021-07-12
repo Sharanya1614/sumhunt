@@ -1,0 +1,5 @@
+{
+	"menuLabel" : "Covid",
+	"menuCode" : "covid",
+	"parentMenu": "root"
+}

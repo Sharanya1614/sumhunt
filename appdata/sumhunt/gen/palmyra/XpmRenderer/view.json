@@ -1,0 +1,23 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmRenderer",
+  "label" : "Xpm Renderer",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name",
+    "mandatory" : true
+  }, {
+    "name" : "reference",
+    "mandatory" : true
+  }, {
+    "name" : "processor"
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  } ]
+}

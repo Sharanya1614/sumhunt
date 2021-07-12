@@ -1,0 +1,49 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmFacility",
+  "label" : "Zcm Facility",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "org",
+    "mandatory" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "guid"
+  }, {
+    "name" : "name"
+  }, {
+    "name" : "facilityType",
+    "mandatory" : true
+  }, {
+    "name" : "region",
+    "mandatory" : true
+  }, {
+    "name" : "status",
+    "mandatory" : true
+  }, {
+    "name" : "addressContact"
+  }, {
+    "name" : "addressLine1"
+  }, {
+    "name" : "addressLine2"
+  }, {
+    "name" : "addressCity"
+  }, {
+    "name" : "addressDistrict"
+  }, {
+    "name" : "addressState"
+  }, {
+    "name" : "addressCountry"
+  }, {
+    "name" : "addressPincode"
+  } ]
+}

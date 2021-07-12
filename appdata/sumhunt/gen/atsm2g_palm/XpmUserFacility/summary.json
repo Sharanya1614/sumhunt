@@ -1,0 +1,22 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmUserFacility",
+  "label" : "Xpm User Facility",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "userId",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "facilityId",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  } ]
+}

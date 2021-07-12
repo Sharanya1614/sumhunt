@@ -1,0 +1,103 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "name" : "parent",
+    "label" : "Parent",
+    "attribute" : "parent.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "XpmMenu",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 64,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "code",
+    "label" : "Code",
+    "attribute" : "code",
+    "maxLength" : 64,
+    "displayOrder" : 4
+  }, {
+    "name" : "action",
+    "label" : "Action",
+    "attribute" : "action",
+    "maxLength" : 50,
+    "displayOrder" : 5
+  }, {
+    "mandatory" : true,
+    "name" : "displayOrder",
+    "label" : "Display Order",
+    "attribute" : "displayOrder",
+    "maxLength" : 10,
+    "displayOrder" : 6,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "criteria",
+    "label" : "Criteria",
+    "attribute" : "criteria",
+    "maxLength" : 300,
+    "displayOrder" : 8
+  }, {
+    "name" : "pageId",
+    "label" : "Page Id",
+    "attribute" : "pageId.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "XpmPage",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 9
+  }, {
+    "name" : "icon",
+    "label" : "Icon",
+    "attribute" : "icon",
+    "maxLength" : 50,
+    "displayOrder" : 10
+  }, {
+    "name" : "category",
+    "label" : "Category",
+    "attribute" : "category",
+    "maxLength" : 5,
+    "displayOrder" : 11,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "externalUrl",
+    "label" : "External Url",
+    "attribute" : "externalUrl",
+    "maxLength" : 255,
+    "displayOrder" : 12
+  }, {
+    "name" : "ciType",
+    "label" : "Ci Type",
+    "attribute" : "ciType",
+    "maxLength" : 64,
+    "displayOrder" : 17
+  }, {
+    "name" : "ciId",
+    "label" : "Ci Id",
+    "attribute" : "ciId",
+    "maxLength" : 19,
+    "displayOrder" : 18,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  } ]
+}

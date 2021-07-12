@@ -1,0 +1,133 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "loginName",
+    "label" : "Login Name",
+    "attribute" : "loginName",
+    "maxLength" : 64,
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "random",
+    "label" : "Random",
+    "attribute" : "random",
+    "maxLength" : 128,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "password",
+    "label" : "Password",
+    "attribute" : "password",
+    "maxLength" : 128,
+    "displayOrder" : 4
+  }, {
+    "name" : "nextPasswordChange",
+    "label" : "Next Password Change",
+    "attribute" : "nextPasswordChange",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 5
+  }, {
+    "name" : "lastPasswordChange",
+    "label" : "Last Password Change",
+    "attribute" : "lastPasswordChange",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 6
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "locked",
+    "label" : "Locked",
+    "attribute" : "locked",
+    "maxLength" : 5,
+    "displayOrder" : 8,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "externalUser",
+    "label" : "External User",
+    "attribute" : "externalUser",
+    "maxLength" : 5,
+    "displayOrder" : 9,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "lastLogin",
+    "label" : "Last Login",
+    "attribute" : "lastLogin",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 10
+  }, {
+    "mandatory" : true,
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 64,
+    "displayOrder" : 11
+  }, {
+    "mandatory" : true,
+    "name" : "firstName",
+    "label" : "First Name",
+    "attribute" : "firstName",
+    "maxLength" : 64,
+    "displayOrder" : 12
+  }, {
+    "name" : "lastName",
+    "label" : "Last Name",
+    "attribute" : "lastName",
+    "maxLength" : 64,
+    "displayOrder" : 13
+  }, {
+    "name" : "mobileNumber",
+    "label" : "Mobile Number",
+    "attribute" : "mobileNumber",
+    "maxLength" : 15,
+    "displayOrder" : 14
+  }, {
+    "name" : "officeNumber",
+    "label" : "Office Number",
+    "attribute" : "officeNumber",
+    "maxLength" : 15,
+    "displayOrder" : 15
+  }, {
+    "mandatory" : true,
+    "name" : "email",
+    "label" : "Email",
+    "attribute" : "email",
+    "maxLength" : 64,
+    "displayOrder" : 16
+  }, {
+    "name" : "department",
+    "label" : "Department",
+    "attribute" : "department",
+    "maxLength" : 20,
+    "displayOrder" : 17
+  }, {
+    "name" : "icon",
+    "label" : "Icon",
+    "attribute" : "icon",
+    "maxLength" : 200,
+    "displayOrder" : 18
+  }, {
+    "name" : "homePage",
+    "label" : "Home Page",
+    "attribute" : "homePage",
+    "maxLength" : 200,
+    "displayOrder" : 19
+  } ]
+}

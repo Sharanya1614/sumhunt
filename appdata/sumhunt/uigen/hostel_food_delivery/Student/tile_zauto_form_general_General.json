@@ -1,0 +1,47 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "studCode",
+    "label" : "Stud Code",
+    "attribute" : "studCode",
+    "maxLength" : 50,
+    "displayOrder" : 2
+  }, {
+    "name" : "name",
+    "label" : "Name",
+    "attribute" : "name",
+    "maxLength" : 100,
+    "displayOrder" : 3
+  }, {
+    "name" : "institutionName",
+    "label" : "Institution Name",
+    "attribute" : "institutionName",
+    "maxLength" : 100,
+    "displayOrder" : 4
+  }, {
+    "name" : "yearofstudy",
+    "label" : "Yearofstudy",
+    "attribute" : "yearofstudy",
+    "maxLength" : 50,
+    "displayOrder" : 5
+  }, {
+    "name" : "hostId",
+    "label" : "Host Id",
+    "attribute" : "hostId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "Hostel",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 6
+  }, {
+    "name" : "roomNumber",
+    "label" : "Room Number",
+    "attribute" : "roomNumber",
+    "maxLength" : 10,
+    "displayOrder" : 7
+  } ]
+}

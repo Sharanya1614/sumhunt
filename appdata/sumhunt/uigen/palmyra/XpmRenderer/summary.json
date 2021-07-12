@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Renderer",
+  "menuLabel" : "Renderer",
+  "action" : "summary",
+  "labelFormat" : "Renderer",
+  "ciType" : "XpmRenderer",
+  "tab" : [ {
+    "name" : "zauto_XpmRenderer_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

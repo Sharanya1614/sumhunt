@@ -1,0 +1,11 @@
+{
+  "menuCode" : "Hostel",
+  "menuLabel" : "Hostel",
+  "action" : "summary",
+  "ciType" : "Hostel",
+  "tab" : [ {
+    "name" : "zauto_Hostel_sum_General",
+    "label" : "Hostels",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

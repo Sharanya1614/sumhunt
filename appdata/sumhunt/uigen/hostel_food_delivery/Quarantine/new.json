@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Quarantine",
+  "menuLabel" : "Quarantine",
+  "action" : "new",
+  "labelFormat" : "New Quarantine Student",
+  "ciType" : "Quarantine",
+  "tab" : [ {
+    "name" : "zauto_Quarantine_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

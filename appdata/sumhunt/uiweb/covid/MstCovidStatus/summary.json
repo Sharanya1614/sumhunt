@@ -1,0 +1,12 @@
+{
+  "menuCode" : "CovidStatus",
+  "menuLabel" : "Covid Status",
+  "action" : "summary",
+  "labelFormat" : "Covid Status",
+  "ciType" : "MstCovidStatus",
+  "tab" : [ {
+    "name" : "zauto_MstCovidStatus_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

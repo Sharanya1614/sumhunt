@@ -1,0 +1,23 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmOrganization",
+  "label" : "Zcm Organization",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "name",
+    "mandatory" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "description",
+    "mandatory" : true
+  } ]
+}

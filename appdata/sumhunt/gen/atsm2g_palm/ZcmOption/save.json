@@ -1,0 +1,25 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "ZcmOption",
+  "label" : "Zcm Option",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "code",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "extCode"
+  }, {
+    "name" : "description",
+    "mandatory" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  } ]
+}

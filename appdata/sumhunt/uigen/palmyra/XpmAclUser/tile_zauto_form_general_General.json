@@ -1,0 +1,34 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "aclId",
+    "label" : "Acl Id",
+    "attribute" : "aclId",
+    "maxLength" : 10,
+    "displayOrder" : 2,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "userId",
+    "label" : "User Id",
+    "attribute" : "userId",
+    "maxLength" : 10,
+    "displayOrder" : 3,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 4,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  } ]
+}

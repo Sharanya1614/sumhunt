@@ -1,0 +1,25 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmAclUser",
+  "label" : "Xpm Acl User",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "aclId",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "userId",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  } ]
+}

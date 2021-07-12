@@ -1,0 +1,71 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "user",
+    "label" : "User",
+    "attribute" : "user.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "XpmUser",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "status",
+    "label" : "Status",
+    "attribute" : "status",
+    "maxLength" : 10,
+    "displayOrder" : 3,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 4,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "failureAttempts",
+    "label" : "Failure Attempts",
+    "attribute" : "failureAttempts",
+    "maxLength" : 10,
+    "displayOrder" : 5,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "ipAddress",
+    "label" : "Ip Address",
+    "attribute" : "ipAddress",
+    "maxLength" : 10,
+    "displayOrder" : 6,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "hostName",
+    "label" : "Host Name",
+    "attribute" : "hostName",
+    "maxLength" : 10,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "cookie",
+    "label" : "Cookie",
+    "attribute" : "cookie",
+    "maxLength" : 10,
+    "displayOrder" : 8,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  } ]
+}

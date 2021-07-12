@@ -1,0 +1,59 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmUser",
+  "label" : "Xpm User",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "loginName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "random",
+    "mandatory" : true
+  }, {
+    "name" : "password",
+    "mandatory" : true
+  }, {
+    "name" : "nextPasswordChange"
+  }, {
+    "name" : "lastPasswordChange"
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "locked",
+    "mandatory" : true
+  }, {
+    "name" : "externalUser",
+    "mandatory" : true
+  }, {
+    "name" : "lastLogin"
+  }, {
+    "name" : "name",
+    "mandatory" : true
+  }, {
+    "name" : "firstName",
+    "mandatory" : true
+  }, {
+    "name" : "lastName"
+  }, {
+    "name" : "mobileNumber"
+  }, {
+    "name" : "officeNumber"
+  }, {
+    "name" : "email",
+    "mandatory" : true
+  }, {
+    "name" : "department"
+  }, {
+    "name" : "icon"
+  }, {
+    "name" : "homePage"
+  } ]
+}

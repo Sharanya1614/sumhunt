@@ -1,0 +1,104 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "ciid",
+    "label" : "Ciid",
+    "attribute" : "ciid",
+    "maxLength" : 10,
+    "displayOrder" : 2,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "citid",
+    "label" : "Citid",
+    "attribute" : "citid.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "filename",
+    "label" : "Filename",
+    "attribute" : "filename",
+    "maxLength" : 256,
+    "displayOrder" : 4
+  }, {
+    "name" : "fid",
+    "label" : "Fid",
+    "attribute" : "fid",
+    "maxLength" : 150,
+    "displayOrder" : 5
+  }, {
+    "name" : "offset",
+    "label" : "Offset",
+    "attribute" : "offset",
+    "maxLength" : 10,
+    "displayOrder" : 6,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "size",
+    "label" : "Size",
+    "attribute" : "size",
+    "maxLength" : 19,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "expiration",
+    "label" : "Expiration",
+    "attribute" : "expiration",
+    "maxLength" : 19,
+    "displayOrder" : 8,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "time",
+    "label" : "Time",
+    "attribute" : "time",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 9
+  }, {
+    "mandatory" : true,
+    "name" : "path",
+    "label" : "Path",
+    "attribute" : "path",
+    "maxLength" : 1024,
+    "displayOrder" : 10
+  }, {
+    "name" : "remotePath",
+    "label" : "Remote Path",
+    "attribute" : "remotePath",
+    "maxLength" : 150,
+    "displayOrder" : 11
+  }, {
+    "name" : "filetype",
+    "label" : "Filetype",
+    "attribute" : "filetype",
+    "maxLength" : 150,
+    "displayOrder" : 12
+  }, {
+    "name" : "tag",
+    "label" : "Tag",
+    "attribute" : "tag",
+    "maxLength" : 150,
+    "displayOrder" : 13
+  }, {
+    "mandatory" : true,
+    "name" : "status",
+    "label" : "Status",
+    "attribute" : "status",
+    "maxLength" : 5,
+    "displayOrder" : 14,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9.]*$"
+  } ]
+}

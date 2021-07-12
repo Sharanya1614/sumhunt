@@ -1,0 +1,33 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmCifieldFkey",
+  "label" : "Xpm Cifield Fkey",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "keyName",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "cifield",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "fkeyField",
+    "mandatory" : true,
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "active",
+    "mandatory" : true
+  }, {
+    "name" : "schemaName",
+    "mandatory" : true
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+	"menuCode" : "user",
+	"menuLabel":"Users",
+	"ciType" : "XpmUser",
+	"active" : true,
+	"label" : "${firstName} - ${loginName}",
+	"tab" : [
+		{	
+			"name" : "zauto_XpmUser_exp_General",
+			"label" : "General",
+			"pageName" : "User",
+			"displayOrder" : 1,
+			"active" : true,
+			"position" : "center",
+			"tabularType" : "explorer",
+			"tile" : ["zauto_XpmUser_Users",
+				"zauto_XpmUser_status",
+				"zauto_XpmUser_contact"
+			]
+		}
+	]
+}

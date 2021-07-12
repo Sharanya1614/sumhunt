@@ -1,0 +1,53 @@
+{
+      "name" : "form_group_General",
+      "label" : "General",
+      "permission" : {
+        "read" : true,
+        "deny" : false,
+        "update" : true,
+        "delete" : true,
+        "create" : true
+      },
+      "displayOrder" : 0,
+      "colspan" : 2,
+      "relation" : "self",
+      "mask" : 15,
+      "openMode" : 0,
+      "active" : true,
+      "content" : "Form",
+      "position" : "center",
+      "field" : [ {
+        "name" : "sid",
+        "label" : "Sid",
+        "attribute" : "sid",
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "displayOrder" : 1,
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : true,
+        "editable" : "editable"
+      }, {
+        "name" : "description",
+        "label" : "Description",
+        "attribute" : "description",
+        "displayOrder" : 2,
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : false,
+        "editable" : "editable"
+      }, {
+        "name" : "active",
+        "label" : "Active",
+        "attribute" : "active",
+        "displayOrder" : 3,
+        "active" : true,
+        "displayFormat" : "TEXTFIELD",
+        "colspan" : 0,
+        "rowspan" : 0,
+        "mandatory" : false,
+        "editable" : "editable",
+        "validation" : "^[0-9]*$"
+      }]}

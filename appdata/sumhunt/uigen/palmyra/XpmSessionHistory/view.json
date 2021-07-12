@@ -1,0 +1,11 @@
+{
+  "menuCode" : "SessionHistory",
+  "menuLabel" : "Session History",
+  "action" : "view",
+  "ciType" : "XpmSessionHistory",
+  "tab" : [ {
+    "name" : "zauto_XpmSessionHistory_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

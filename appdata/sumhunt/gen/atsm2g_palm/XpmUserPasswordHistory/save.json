@@ -1,0 +1,23 @@
+{
+  "name" : "<tobechanged>",
+  "ciType" : "XpmUserPasswordHistory",
+  "label" : "Xpm User Password History",
+  "active" : true,
+  "editable" : "editable",
+  "fields" : [ {
+    "name" : "id",
+    "searchable" : true,
+    "sortable" : true
+  }, {
+    "name" : "user",
+    "mandatory" : true
+  }, {
+    "name" : "random",
+    "mandatory" : true
+  }, {
+    "name" : "password",
+    "mandatory" : true
+  }, {
+    "name" : "changedOn"
+  } ]
+}

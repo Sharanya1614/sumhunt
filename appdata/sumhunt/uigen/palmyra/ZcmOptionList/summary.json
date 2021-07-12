@@ -1,0 +1,12 @@
+{
+  "menuCode" : "OptionList",
+  "menuLabel" : "Option List",
+  "action" : "summary",
+  "labelFormat" : "Option List",
+  "ciType" : "ZcmOptionList",
+  "tab" : [ {
+    "name" : "zauto_ZcmOptionList_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

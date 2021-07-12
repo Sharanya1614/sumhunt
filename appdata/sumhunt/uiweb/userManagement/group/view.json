@@ -1,0 +1,35 @@
+{
+	"menuCode" : "group",
+	"menuLabel":"Groups",
+	"ciType" : "XpmAclSid",
+	"active" : true,
+	"tab" : [
+		{
+			"name" : "zauto_XpmAclSid_sum_General",
+			"label" : "General",
+			"displayOrder" : 0,
+			"active" : true,
+			"position" : "center",
+			"tabularType" : "explorer",
+			"tile" : [ "form_group_general","zauto_zit_acl_sid_Menu"]
+		},
+		{
+			"name" : "zauto_AclUserByGroup_sum_General",
+			"label" : "Users",
+			"displayOrder" : 0,
+			"active" : true,
+			"position" : "center",
+			"tabularType" : "explorer",
+			"tile" : ["zman_zit_acl_sid_Users"]
+		},
+		{
+			"name" : "zauto_AclGrid_sum_General",
+			"label" : "Data Access",
+			"displayOrder" : 0,
+			"active" : false,
+			"position" : "center",
+			"tabularType" : "explorer",
+			"tile" : ["zman_zit_acl_sid_CiType"]
+		}
+	]
+}

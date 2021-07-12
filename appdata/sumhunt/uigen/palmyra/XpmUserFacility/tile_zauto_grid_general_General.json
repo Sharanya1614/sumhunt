@@ -1,0 +1,43 @@
+{
+  "name" : "zauto_grid_general_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "userId",
+    "label" : "User Id",
+    "attribute" : "userId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "XpmUser",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 1,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "mandatory" : true,
+    "name" : "facilityId",
+    "label" : "Facility Id",
+    "attribute" : "facilityId.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmFacility",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "editable" : "readonly"
+  }, {
+    "name" : "id",
+    "label" : "Id",
+    "attribute" : "id",
+    "maxLength" : 10,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
+    "editable" : "readonly"
+  } ]
+}

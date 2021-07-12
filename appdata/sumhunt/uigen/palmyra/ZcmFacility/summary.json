@@ -1,0 +1,12 @@
+{
+  "menuCode" : "Facility",
+  "menuLabel" : "Facility",
+  "action" : "summary",
+  "labelFormat" : "Facility",
+  "ciType" : "ZcmFacility",
+  "tab" : [ {
+    "name" : "zauto_ZcmFacility_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

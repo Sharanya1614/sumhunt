@@ -1,0 +1,12 @@
+{
+  "menuCode" : "FacilityType",
+  "menuLabel" : "Facility Type",
+  "action" : "view",
+  "labelFormat" : "${code}",
+  "ciType" : "ZcmFacilityType",
+  "tab" : [ {
+    "name" : "zauto_ZcmFacilityType_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

@@ -1,0 +1,5 @@
+{
+	"menuLabel" : "User Management",
+	"menuCode" : "userManagement",
+	"parentMenu": "admin"
+}

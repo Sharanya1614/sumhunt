@@ -1,0 +1,60 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "aclSid",
+    "label" : "Acl Sid",
+    "attribute" : "aclSid.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "XpmAclSid",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "menu",
+    "label" : "Menu",
+    "attribute" : "menu.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "XpmMenu",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "mask",
+    "label" : "Mask",
+    "attribute" : "mask",
+    "maxLength" : 10,
+    "displayOrder" : 4,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "granting",
+    "label" : "Granting",
+    "attribute" : "granting",
+    "maxLength" : 5,
+    "displayOrder" : 9,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "auditSuccess",
+    "label" : "Audit Success",
+    "attribute" : "auditSuccess",
+    "maxLength" : 5,
+    "displayOrder" : 10,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "auditFailure",
+    "label" : "Audit Failure",
+    "attribute" : "auditFailure",
+    "maxLength" : 5,
+    "displayOrder" : 11,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  } ]
+}

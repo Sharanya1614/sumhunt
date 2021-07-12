@@ -1,0 +1,12 @@
+{
+  "menuCode" : "GeoState",
+  "menuLabel" : "Geo State",
+  "action" : "summary",
+  "labelFormat" : "Geo State",
+  "ciType" : "ZcmGeoState",
+  "tab" : [ {
+    "name" : "zauto_ZcmGeoState_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General" ]
+  } ]
+}

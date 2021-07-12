@@ -1,0 +1,11 @@
+{
+  "menuCode" : "GeoCountry",
+  "menuLabel" : "Geo Country",
+  "action" : "view",
+  "ciType" : "ZcmGeoCountry",
+  "tab" : [ {
+    "name" : "zauto_ZcmGeoCountry_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_form_general_General" ]
+  } ]
+}

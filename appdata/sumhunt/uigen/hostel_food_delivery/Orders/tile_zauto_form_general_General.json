@@ -1,0 +1,32 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "name" : "studId",
+    "label" : "Stud Id",
+    "attribute" : "studId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "Student",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "name" : "mealId",
+    "label" : "Meal Id",
+    "attribute" : "mealId.id",
+    "refAttribute" : "id",
+    "maxLength" : 10,
+    "relatedCi" : "MstMealType",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 3
+  }, {
+    "name" : "orderDate",
+    "label" : "Order Date",
+    "attribute" : "orderDate",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 4
+  } ]
+}

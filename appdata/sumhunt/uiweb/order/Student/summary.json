@@ -1,0 +1,11 @@
+{
+  "menuCode" : "Student",
+  "menuLabel" : "Student",
+  "action" : "summary",
+  "ciType" : "Student",
+  "tab" : [ {
+    "name" : "zauto_Student_sum_General",
+    "label" : "General",
+    "tile" : [ "zauto_grid_general_General"]
+  } ]
+}

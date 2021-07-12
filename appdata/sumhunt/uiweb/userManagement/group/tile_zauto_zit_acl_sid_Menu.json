@@ -1,0 +1,20 @@
+{
+					"name" : "zauto_zit_acl_sid_Menu",
+					"label" : "Menu",
+					"permission" : {
+						"read" : true,
+						"deny" : false,
+						"update" : true,
+						"delete" : true,
+						"create" : true
+					},
+					"displayOrder" : 0,
+					"colspan" : 2,
+					"relation" : "related-cis",
+					"mask" : 15,
+					"renderer" : "ddm/zui/widget/AclMenuContainer",
+					"openMode" : 0,
+					"active" : true,
+					"content" : "custom",
+					"position" : "center"
+				}

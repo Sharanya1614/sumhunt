@@ -1,0 +1,141 @@
+{
+  "name" : "zauto_form_general_General",
+  "label" : "General",
+  "mask" : 6,
+  "content" : "Form",
+  "field" : [ {
+    "mandatory" : true,
+    "name" : "citype",
+    "label" : "Citype",
+    "attribute" : "citype.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "mandatory" : true,
+    "name" : "attribute",
+    "label" : "Attribute",
+    "attribute" : "attribute",
+    "maxLength" : 200,
+    "displayOrder" : 3
+  }, {
+    "mandatory" : true,
+    "name" : "columnName",
+    "label" : "Column Name",
+    "attribute" : "columnName",
+    "maxLength" : 200,
+    "displayOrder" : 4
+  }, {
+    "mandatory" : true,
+    "name" : "active",
+    "label" : "Active",
+    "attribute" : "active",
+    "maxLength" : 5,
+    "displayOrder" : 5,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "displayLabel",
+    "label" : "Display Label",
+    "attribute" : "displayLabel",
+    "maxLength" : 200,
+    "displayOrder" : 6
+  }, {
+    "name" : "columnType",
+    "label" : "Column Type",
+    "attribute" : "columnType",
+    "maxLength" : 10,
+    "displayOrder" : 7,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "formula",
+    "label" : "Formula",
+    "attribute" : "formula",
+    "maxLength" : 64,
+    "displayOrder" : 8
+  }, {
+    "name" : "aggregate",
+    "label" : "Aggregate",
+    "attribute" : "aggregate",
+    "maxLength" : 64,
+    "displayOrder" : 9
+  }, {
+    "name" : "columnLength",
+    "label" : "Column Length",
+    "attribute" : "columnLength",
+    "maxLength" : 10,
+    "displayOrder" : 10,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "displayOrder",
+    "label" : "Display Order",
+    "attribute" : "displayOrder",
+    "maxLength" : 10,
+    "displayOrder" : 11,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "primaryKey",
+    "label" : "Primary Key",
+    "attribute" : "primaryKey",
+    "maxLength" : 5,
+    "displayOrder" : 12,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "mandatory",
+    "label" : "Mandatory",
+    "attribute" : "mandatory",
+    "maxLength" : 5,
+    "displayOrder" : 13,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "mandatory" : true,
+    "name" : "isUnique",
+    "label" : "Is Unique",
+    "attribute" : "isUnique",
+    "maxLength" : 5,
+    "displayOrder" : 14,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
+  }, {
+    "name" : "defaultValue",
+    "label" : "Default Value",
+    "attribute" : "defaultValue",
+    "maxLength" : 200,
+    "displayOrder" : 15
+  }, {
+    "name" : "fkeyCitype",
+    "label" : "Fkey Citype",
+    "attribute" : "fkeyCitype.id",
+    "refAttribute" : "schemaName",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCitype",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 16
+  }, {
+    "name" : "fkeyCifield",
+    "label" : "Fkey Cifield",
+    "attribute" : "fkeyCifield.id",
+    "refAttribute" : "attribute",
+    "maxLength" : 10,
+    "relatedCi" : "XpmCifield",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 17
+  }, {
+    "name" : "options",
+    "label" : "Options",
+    "attribute" : "options.id",
+    "refAttribute" : "code",
+    "maxLength" : 10,
+    "relatedCi" : "ZcmOption",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 18
+  } ]
+}

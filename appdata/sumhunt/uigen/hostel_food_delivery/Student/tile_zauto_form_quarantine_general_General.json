@@ -1,0 +1,37 @@
+{
+  "name" : "zauto_form_quarantine_general_General",
+  "label" : "Quarantine Details",
+  "relation" : "stud",
+  "content" : "Form",
+  "field" : [ {
+    "name" : "studId",
+    "label" : "Stud Id",
+    "attribute" : "studId.id",
+    "refAttribute" : "name",
+    "maxLength" : 10,
+    "relatedCi" : "Student",
+    "displayFormat" : "DROPDOWN",
+    "displayOrder" : 2
+  }, {
+    "name" : "startDate",
+    "label" : "Start Date",
+    "attribute" : "startDate",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 3
+  }, {
+    "name" : "endDate",
+    "label" : "End Date",
+    "attribute" : "endDate",
+    "maxLength" : 19,
+    "displayFormat" : "TIMESTAMP",
+    "displayOrder" : 4
+  }, {
+    "name" : "covidStatus",
+    "label" : "Covid Status",
+    "attribute" : "covidStatus",
+    "maxLength" : 3,
+    "displayFormat" : "BIT",
+    "displayOrder" : 5
+  } ]
+}
