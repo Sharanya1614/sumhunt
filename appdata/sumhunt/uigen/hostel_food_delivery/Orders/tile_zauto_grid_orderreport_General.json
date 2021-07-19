@@ -1,0 +1,18 @@
+{
+  "name" : "zauto_grid_orderreport_General",
+  "label" : "General",
+  "content" : "Grid",
+  "field" : [ {
+    "name" : "mealAmount",
+    "label" : "Meal Amount",
+    "attribute" : "mealAmount",
+    "maxLength" : 10,
+    "displayOrder" : 5,
+    "searchable" : true,
+    "sortable" : true,
+    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9.]*$",
+    "editable" : "readonly"
+  } ]
+}

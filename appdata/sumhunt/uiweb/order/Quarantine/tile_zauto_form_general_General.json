@@ -1,12 +1,13 @@
 {
   "name" : "zauto_form_general_General",
   "label" : "General",
-  "mask" : 6,
+  "mask" : 15,
   "content" : "Form",
   "field" : [ {
     "name" : "studId",
     "label" : "Name",
     "attribute" : "studId.id",
+    "mandatory" : "true",
     "refAttribute" : "name",
     "maxLength" : 10,
     "relatedCi" : "Student",
@@ -16,7 +17,9 @@
     "name" : "startDate",
     "label" : "Start Date",
     "attribute" : "startDate",
+    "editable" : "editable",
     "maxLength" : 19,
+    "mandatory" : "true",
     "displayFormat" : "TIMESTAMP",
     "displayOrder" : 3
   }, {
@@ -29,7 +32,10 @@
   }, {
     "name" : "covidStatus",
     "label" : "Covid Status",
-    "attribute" : "covidStatus.status",
+    "attribute" : "covidStatus.id",
+    "refAttribute" : "status",
+    "relatedCi" : "MstCovidStatus",
+    "mandatory" : "true",
     "maxLength" : 3,
     "displayFormat" : "DROPDOWN",
     "displayOrder" : 5

@@ -5,7 +5,7 @@
   "content" : "Form",
   "field" : [ {
     "name" : "studId",
-    "label" : "Stud Id",
+    "label" : "Stud Name",
     "attribute" : "studId.id",
     "refAttribute" : "name",
     "maxLength" : 10,
@@ -28,5 +28,13 @@
     "maxLength" : 19,
     "displayFormat" : "TIMESTAMP",
     "displayOrder" : 4
+  }, {
+    "name" : "mealAmount",
+    "label" : "Meal Amount",
+    "attribute" : "mealAmount",
+    "maxLength" : 10,
+    "displayOrder" : 5,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9.]*$"
   } ]
 }

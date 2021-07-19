@@ -1,13 +1,11 @@
 {
   "menuCode" : "Payment",
   "menuLabel" : "Payment",
-  "parentMenu" : "order",
-  "action" : "summary",
-  "labelFormat" : "Payment",
+  "action" : "view",
   "ciType" : "Payment",
   "tab" : [ {
     "name" : "zauto_Payment_sum_General",
     "label" : "General",
-    "tile" : [ "zauto_grid_general_General" ]
+    "tile" : [ "zauto_form_general_General" ]
   } ]
 }

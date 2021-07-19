@@ -4,6 +4,7 @@
   "mask" : 6,
   "content" : "Form",
   "field" : [ {
+    "mandatory" : true,
     "name" : "studId",
     "label" : "Name",
     "attribute" : "studId.id",
@@ -13,6 +14,7 @@
     "displayFormat" : "DROPDOWN",
     "displayOrder" : 2
   }, {
+    "mandatory" : true,
     "name" : "startDate",
     "label" : "Start Date",
     "attribute" : "startDate",
@@ -27,10 +29,13 @@
     "displayFormat" : "TIMESTAMP",
     "displayOrder" : 4
   }, {
+    "mandatory" : true,
     "name" : "covidStatus",
     "label" : "Covid Status",
-    "attribute" : "covidStatus.status",
+    "attribute" : "covidStatus.id",
+    "refAttribute" : "status",
     "maxLength" : 3,
+    "relatedCi" : "MstCovidStatus",
     "displayFormat" : "DROPDOWN",
     "displayOrder" : 5
   } ]

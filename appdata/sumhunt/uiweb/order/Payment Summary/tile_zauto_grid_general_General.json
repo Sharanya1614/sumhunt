@@ -1,9 +1,7 @@
 {
   "name" : "zauto_grid_general_General",
-  "label" : "Quarantine Details",
-  "relation" : "stud",
+  "label" : "General",
   "content" : "Grid",
-  "targetPage":"Quarantine",
   "field" : [ {
     "name" : "id",
     "label" : "Id",
@@ -15,7 +13,7 @@
     "editable" : "readonly"
   }, {
     "name" : "studId",
-    "label" : "Name",
+    "label" : "Stud Id",
     "attribute" : "studId.id",
     "refAttribute" : "name",
     "maxLength" : 10,
@@ -27,39 +25,28 @@
     "tabDisplay" : true,
     "editable" : "readonly"
   }, {
-    "name" : "startDate",
-    "label" : "Start Date",
-    "attribute" : "startDate",
-    "maxLength" : 19,
-    "displayFormat" : "TIMESTAMP",
+    "name" : "numberOfMeal",
+    "label" : "Number Of Meal",
+    "attribute" : "numberOfMeal",
+    "maxLength" : 10,
     "displayOrder" : 3,
     "searchable" : true,
     "sortable" : true,
     "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$",
     "editable" : "readonly"
   }, {
-    "name" : "endDate",
-    "label" : "End Date",
-    "attribute" : "endDate",
-    "maxLength" : 19,
-    "displayFormat" : "TIMESTAMP",
+    "name" : "totalPayment",
+    "label" : "Total Payment",
+    "attribute" : "totalPayment",
+    "maxLength" : 10,
     "displayOrder" : 4,
     "searchable" : true,
     "sortable" : true,
     "tabDisplay" : true,
-    "editable" : "readonly"
-  }, {
-    "name" : "covidStatus",
-    "label" : "Covid Status",
-    "attribute" : "covidStatus.id",
-    "refAttribute" : "status",
-    "relatedCi" : "MstCovidStatus",
-    "maxLength" : 3,
-    "displayFormat" : "DROPDOWN",
-    "displayOrder" : 5,
-    "searchable" : true,
-    "sortable" : true,
-    "tabDisplay" : true,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9.]*$",
     "editable" : "readonly"
   } ]
 }

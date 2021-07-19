@@ -51,9 +51,11 @@
   }, {
     "name" : "covidStatus",
     "label" : "Covid Status",
-    "attribute" : "covidStatus",
+    "attribute" : "covidStatus.id",
+    "refAttribute" : "status",
     "maxLength" : 3,
-    "displayFormat" : "BIT",
+    "relatedCi" : "MstCovidStatus",
+    "displayFormat" : "DROPDOWN",
     "displayOrder" : 5,
     "searchable" : true,
     "sortable" : true,

@@ -1,7 +1,6 @@
 {
   "menuCode" : "Payment",
   "menuLabel" : "Payment",
-  "parentMenu" : "order",
   "action" : "summary",
   "labelFormat" : "Payment",
   "ciType" : "Payment",

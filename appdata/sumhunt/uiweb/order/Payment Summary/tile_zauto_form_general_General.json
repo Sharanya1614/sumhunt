@@ -13,27 +13,19 @@
     "displayFormat" : "DROPDOWN",
     "displayOrder" : 2
   }, {
-    "name" : "mealId",
-    "label" : "Meal Id",
-    "attribute" : "mealId.id",
-    "refAttribute" : "id",
+    "name" : "numberOfMeal",
+    "label" : "Number Of Meal",
+    "attribute" : "numberOfMeal",
     "maxLength" : 10,
-    "relatedCi" : "MstMealType",
-    "displayFormat" : "DROPDOWN",
-    "displayOrder" : 3
+    "displayOrder" : 3,
+    "validMessage" : "Please enter valid Number",
+    "validation" : "^[0-9]*$"
   }, {
-    "name" : "orderDate",
-    "label" : "Order Date",
-    "attribute" : "orderDate",
-    "maxLength" : 19,
-    "displayFormat" : "TIMESTAMP",
-    "displayOrder" : 4
-  }, {
-    "name" : "mealAmount",
-    "label" : "Meal Amount",
-    "attribute" : "mealAmount",
+    "name" : "totalPayment",
+    "label" : "Total Payment",
+    "attribute" : "totalPayment",
     "maxLength" : 10,
-    "displayOrder" : 5,
+    "displayOrder" : 4,
     "validMessage" : "Please enter valid Number",
     "validation" : "^[0-9.]*$"
   } ]
